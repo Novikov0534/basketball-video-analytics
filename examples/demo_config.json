@@ -1,0 +1,60 @@
+{
+  "backend": "replay",
+  "detector_model_id": "basketball-player-detection-3-ycjdo/13",
+  "keypoint_model_id": "basketball-court-detection-2/14",
+  "number_model_id": "basketball-jersey-numbers-ocr/3",
+  "read_numbers": true,
+  "number_every": 5,
+  "weights": "yolo11n.pt",
+  "court_keypoint_weights": "",
+  "device": "auto",
+  "image_size": 960,
+  "confidence": 0.4,
+  "max_api_frames": 600,
+  "target_fps": 15,
+  "start_seconds": 0,
+  "max_seconds": 15.0,
+  "max_width": 1280,
+  "league": "nba",
+  "calibration": "auto",
+  "image_points": [],
+  "court_points": [],
+  "camera_mode": "moving",
+  "hoops": [],
+  "team_names": [
+    "Синие",
+    "Оранжевые"
+  ],
+  "rosters": [
+    {
+      "7": "Иванов",
+      "0": "Петров"
+    },
+    {
+      "3": "Смирнов",
+      "11": "Сидоров"
+    }
+  ],
+  "team_embedder": "color",
+  "swap_teams": false,
+  "score_rois": {
+    "A": [
+      0.7708333333333334,
+      0.007142857142857143,
+      0.8541666666666666,
+      0.11071428571428571
+    ],
+    "B": [
+      0.8854166666666666,
+      0.007142857142857143,
+      0.96875,
+      0.11071428571428571
+    ]
+  },
+  "initial_score": null,
+  "ocr_interval": 0.5,
+  "max_speed_m_s": 12,
+  "metrics_interval": 0.5,
+  "smoothing_window": 5,
+  "dead_zone_m": 0.08
+}

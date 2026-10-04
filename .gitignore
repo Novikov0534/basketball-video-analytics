@@ -1,0 +1,26 @@
+# окружения (создаются scripts/bootstrap.py)
+.venv/
+.venv-rf/
+.sam2/
+*.egg-info/
+
+# кэши
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.gradio/
+
+# результаты работы и пользовательские данные
+outputs/
+uploads/
+drive/
+*.log
+
+# веса моделей и записи матчей — не место в репозитории
+*.pt
+*.onnx
+*.engine
+!examples/demo.mp4
+
+# секреты
+.env

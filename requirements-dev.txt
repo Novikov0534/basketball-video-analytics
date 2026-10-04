@@ -1,0 +1,4 @@
+-r requirements.txt
+pytest==8.4.2
+nbformat==5.10.4
+umap-learn==0.5.12  # только для team_reducer=umap (сравнение с оригиналом)

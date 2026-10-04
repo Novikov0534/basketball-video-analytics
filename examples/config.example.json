@@ -1,0 +1,41 @@
+{
+  "backend": "roboflow",
+  "detector_model_id": "basketball-player-detection-3-ycjdo/13",
+  "keypoint_model_id": "basketball-court-detection-2/14",
+  "number_model_id": "basketball-jersey-numbers-ocr/3",
+  "read_numbers": true,
+  "number_every": 5,
+  "weights": "yolo11n.pt",
+  "court_keypoint_weights": "",
+  "device": "auto",
+  "image_size": 960,
+  "confidence": 0.4,
+  "max_api_frames": 600,
+  "target_fps": 30,
+  "start_seconds": 0,
+  "max_seconds": 60,
+  "max_width": 1280,
+  "league": "nba",
+  "calibration": "auto",
+  "image_points": [],
+  "court_points": [],
+  "camera_mode": "moving",
+  "hoops": [],
+  "team_names": [
+    "Команда 1",
+    "Команда 2"
+  ],
+  "rosters": [
+    {},
+    {}
+  ],
+  "team_embedder": "auto",
+  "swap_teams": false,
+  "score_rois": {},
+  "initial_score": null,
+  "ocr_interval": 0.5,
+  "max_speed_m_s": 12,
+  "metrics_interval": 0.5,
+  "smoothing_window": 5,
+  "dead_zone_m": 0.08
+}

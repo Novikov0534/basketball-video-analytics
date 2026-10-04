@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=75,<81"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "basketball-cv"
+version = "0.1.0"
+description = "Automated basketball video analysis with computer vision"
+requires-python = ">=3.11,<3.14"
+license = "AGPL-3.0-only"
+dependencies = []
+[project.scripts]
+basketball-cv = "basketball_cv.cli:main"
+[tool.setuptools.packages.find]
+include = ["basketball_cv*"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

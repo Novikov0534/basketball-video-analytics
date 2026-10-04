@@ -1,0 +1,72 @@
+{
+  "score": [
+    0,
+    3
+  ],
+  "team_names": [
+    "Синие",
+    "Оранжевые"
+  ],
+  "events": [
+    {
+      "time_s": 2.8,
+      "kind": "pass",
+      "player": "A7"
+    },
+    {
+      "time_s": 5.0,
+      "kind": "turnover",
+      "player": "A0"
+    },
+    {
+      "time_s": 5.0,
+      "kind": "steal",
+      "player": "B3"
+    },
+    {
+      "time_s": 6.3,
+      "kind": "pass",
+      "player": "B3"
+    },
+    {
+      "time_s": 7.0,
+      "kind": "shot",
+      "player": "B11",
+      "points": 3
+    },
+    {
+      "time_s": 7.8,
+      "kind": "made",
+      "player": "B11",
+      "points": 3
+    },
+    {
+      "time_s": 7.8,
+      "kind": "assist",
+      "player": "B3"
+    },
+    {
+      "time_s": 12.0,
+      "kind": "shot",
+      "player": "A7",
+      "points": 2
+    },
+    {
+      "time_s": 13.0,
+      "kind": "rebound_def",
+      "player": "B11"
+    }
+  ],
+  "distance_m": {
+    "A7": 16.76,
+    "A0": 7.04,
+    "B3": 6.48,
+    "B11": 23.74
+  },
+  "numbers": {
+    "A7": "7",
+    "A0": "0",
+    "B3": "3",
+    "B11": "11"
+  }
+}
